@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Air-sea Package for Python
+Basic stats Package for Python
     Version 1.0 Oct. 8, 2020
-    Author:  Brice Loose, Graduate School of Oceanography, URI.
-    Email: bloose@uri.edu
+    Author:  Michelle Gregoire, BES-CMB, URI.
+    Email: mjgregoire@uri.edu
     # 
     # DISCLAIMER:
     #    This software is provided "as is" without warranty of any kind. 
     #=========================================================================      
 """
 
-#import numpy as np
-from .air_sea import *
-
-
-__all__ = ['sat_vp']
+import numpy as np
+import matplotlib.pyplot as plt
+from basic_stats import basic_stats(x)
