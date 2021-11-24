@@ -12,4 +12,6 @@ Basic stats Package for Python
 
 import numpy as np
 import matplotlib.pyplot as plt
-from basic_stats import basic_stats(x)
+from .basic_stats import *
+
+__all__ = ['basic_stats']
